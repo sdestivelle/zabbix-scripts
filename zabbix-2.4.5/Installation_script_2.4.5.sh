@@ -106,6 +106,8 @@ cd zabbix-$ZBX_VER
 
 make install
 
+useradd zabbix
+
 #############
 # SELINUX   #
 #############
@@ -158,6 +160,7 @@ systemctl enable httpd.service
 #
 # Edit your /etc/zabbix/zabbix_server.conf
 #
+mkdir -p /etc/zabbix/
 cp $SRC/zabbix-$ZBX_VER/conf/zabbix_server.conf /etc/zabbix/zabbix_server.conf
 
 #
