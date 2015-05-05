@@ -10,7 +10,7 @@
 
 #=====================================================================
 #
-# If necessary, modify the following variable to sweet your configuration
+# If necessary, modify the following variable to suit your configuration
 #
 #=====================================================================
 
