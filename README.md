@@ -5,3 +5,4 @@
 
 2015-11-18 : Modification of the pushover wrapper script
 
+2016-02-10 : Add Zabbix xml default templates file
